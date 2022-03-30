@@ -76,6 +76,18 @@ app.layout = html.Div([
 
 Calling `cyto.load_extra_layouts()` also enables generating SVG images.
 
+### Panzoom
+
+In this fork, the panzoom package is backed into the JS code. Note that you still need to pass the "Font Awesome 4" to the `external_stylesheets` of your app. Example:
+```
+{
+    'href': 'https://use.fontawesome.com/releases/v5.8.1/css/all.css',
+    'rel': 'stylesheet',
+    'integrity': 'sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf',
+    'crossorigin': 'anonymous'
+},
+```
+
 
 ## Getting Started in R
 
